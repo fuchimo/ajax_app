@@ -26,7 +26,7 @@ function memo() {
       list.insertAdjacentHTML("afterend", HTML);
       formText.value = "";
     };
-    e.preventDefault;
+    e.preventDefault();
   });
 }
 window.addEventListener("load", memo);
